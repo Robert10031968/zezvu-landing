@@ -1,19 +1,8 @@
-import { HeroSection } from "@/components/hero-section"
-import { HowItWorksSection } from "@/components/how-it-works-section"
-import { BenefitsSection } from "@/components/benefits-section"
-import { FAQSection } from "@/components/faq-section"
-import { CTASection } from "@/components/cta-section"
-import { Footer } from "@/components/footer"
-
-export default function HomePage() {
+export default function Home() {
   return (
-    <main className="min-h-screen bg-[#FAFAFA]">
-      <HeroSection />
-      <HowItWorksSection />
-      <BenefitsSection />
-      <FAQSection />
-      <CTASection />
-      <Footer />
+    <main>
+      <h1>ZEZVU — AI TV Translator Box</h1>
+      <p>Welcome to the ZEZVU landing page!</p>
     </main>
   )
 }
